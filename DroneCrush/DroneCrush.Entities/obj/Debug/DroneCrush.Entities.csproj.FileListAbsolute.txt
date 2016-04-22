@@ -1,0 +1,4 @@
+c:\Users\gognj_000\Documents\Visual Studio 2013\Projects\DroneCrush\DroneCrush.Entities\bin\Debug\DroneCrush.Entities.dll
+c:\Users\gognj_000\Documents\Visual Studio 2013\Projects\DroneCrush\DroneCrush.Entities\bin\Debug\DroneCrush.Entities.pdb
+c:\Users\gognj_000\Documents\Visual Studio 2013\Projects\DroneCrush\DroneCrush.Entities\obj\Debug\DroneCrush.Entities.dll
+c:\Users\gognj_000\Documents\Visual Studio 2013\Projects\DroneCrush\DroneCrush.Entities\obj\Debug\DroneCrush.Entities.pdb
