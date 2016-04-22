@@ -16,7 +16,9 @@ namespace DroneCrush
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                         "~/Scripts/bower_components/angular/angular.js",
-                        "~/Scripts/bower_components/angular-ui-router/release/angular-ui-router.js"
+                        "~/Scripts/bower_components/angular-route/angular-route.js",
+                        "~/Scripts/bower_components/angular-ui-router/release/angular-ui-router.js",
+                        "~/Scripts/angular-resource.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
@@ -24,8 +26,10 @@ namespace DroneCrush
                         "~/App/Core/*.module.js",
                         "~/App/Core/config.js",
                         "~/App/Main/*.module.js",
-                        "~/App/Main/*.controller.js"
+                        "~/App/Main/*.controller.js",
 
+                        "~/App/DataServices/*.module.js",
+                        "~/App/DataServices/*.data.js"
                 ));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're

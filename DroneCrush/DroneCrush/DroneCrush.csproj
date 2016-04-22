@@ -193,6 +193,8 @@
     <Content Include="App\App.js" />
     <Content Include="App\Core\config.js" />
     <Content Include="App\Core\core.module.js" />
+    <Content Include="App\DataServices\app.data.module.js" />
+    <Content Include="App\DataServices\recipe.data.js" />
     <Content Include="App\Main\index.html" />
     <Content Include="App\Main\main.controller.js" />
     <Content Include="App\Main\main.module.js" />
@@ -202,8 +204,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-resource.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bower_components\angular-route\angular-route.js" />
+    <Content Include="Scripts\bower_components\angular-route\angular-route.min.js" />
+    <Content Include="Scripts\bower_components\angular-route\index.js" />
     <Content Include="Scripts\bower_components\angular-ui-router\.bower.json" />
     <Content Include="Scripts\bower_components\angular-ui-router\bower.json" />
     <Content Include="Scripts\bower_components\angular-ui-router\CHANGELOG.md" />
@@ -216,6 +223,11 @@
     <Content Include="Scripts\bower_components\angular\bower.json" />
     <Content Include="Scripts\bower_components\angular\package.json" />
     <Content Include="Scripts\bower_components\angular\README.md" />
+    <Content Include="Scripts\bower_components\angular-route\.bower.json" />
+    <Content Include="Scripts\bower_components\angular-route\angular-route.min.js.map" />
+    <Content Include="Scripts\bower_components\angular-route\bower.json" />
+    <Content Include="Scripts\bower_components\angular-route\package.json" />
+    <Content Include="Scripts\bower_components\angular-route\README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bower_components\angular-ui-router\release\angular-ui-router.js" />
     <Content Include="Scripts\bower_components\angular-ui-router\release\angular-ui-router.min.js" />
