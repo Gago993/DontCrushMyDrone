@@ -124,3 +124,7 @@ C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\D
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.csproj.GenerateResource.Cache
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.dll
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.pdb
+C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.Core.dll
+C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.SqlServer.dll
+C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.Core.xml
+C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.SqlServer.xml

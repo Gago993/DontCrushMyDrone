@@ -1,4 +1,5 @@
 ﻿using Microsoft.Owin;
+using Hangfire;
 using Owin;
 
 [assembly: OwinStartupAttribute(typeof(DroneCrush.Startup))]
