@@ -120,7 +120,6 @@ C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\M
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.csprojResolveAssemblyReference.cache
-C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.Migrations.Initial.resources
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.csproj.GenerateResource.Cache
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.dll
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.pdb
@@ -265,4 +264,8 @@ C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrus
 C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.dll
 C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.pdb
 C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.Migrations.NoFlyZoneMigration.resources
+<<<<<<< HEAD
+C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.Migrations.NoFlyZoneMigration.resources
+=======
 >>>>>>> 3ed2612c2aef689741b7ceac620df5c835e1e2cd
+>>>>>>> origin/master

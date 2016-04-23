@@ -25,8 +25,12 @@ namespace DroneCrush.Migrations
             context.Drone.Add(new Drone()
             {
                 ID = 1,
-                FirstMidName = "Drone",
-                LastName = "Crush"
+                DeviceToken = "esfads",
+                Coordinate = new Coordinate(){
+                    Latitude = 42.2312,
+                    Longitude = 41.3433
+                },
+                LastActive = DateTime.Now
             });
 
             context.SaveChanges();

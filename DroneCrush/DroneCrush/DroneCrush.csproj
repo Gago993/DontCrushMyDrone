@@ -183,10 +183,6 @@
     <Compile Include="Controllers\WebApi\DronesController.cs" />
     <Compile Include="Controllers\WebApi\GetStatusInfoController.cs" />
     <Compile Include="Controllers\WebApi\NoFlyZonesController.cs" />
-    <Compile Include="Migrations\Database\201604221240289_Initial.cs" />
-    <Compile Include="Migrations\Database\201604221240289_Initial.Designer.cs">
-      <DependentUpon>201604221240289_Initial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Database\201604230007015_NoFlyZoneMigration.cs" />
     <Compile Include="Migrations\Database\201604230007015_NoFlyZoneMigration.Designer.cs">
       <DependentUpon>201604230007015_NoFlyZoneMigration.cs</DependentUpon>
@@ -510,9 +506,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\Database\201604221240289_Initial.resx">
-      <DependentUpon>201604221240289_Initial.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\Database\201604230007015_NoFlyZoneMigration.resx">
       <DependentUpon>201604230007015_NoFlyZoneMigration.cs</DependentUpon>
     </EmbeddedResource>
