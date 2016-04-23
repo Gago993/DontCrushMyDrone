@@ -18,7 +18,10 @@ namespace DroneCrush
                         "~/Scripts/bower_components/angular/angular.js",
                         "~/Scripts/bower_components/angular-route/angular-route.js",
                         "~/Scripts/bower_components/angular-ui-router/release/angular-ui-router.js",
-                        "~/Scripts/angular-resource.js"
+                        "~/Scripts/angular-resource.js",
+                        "~/Scripts/bower_components/lodash/lodash.js",
+                        "~/Scripts/bower_components/angular-simple-logger/dist/angular-simple-logger.js",
+                        "~/Scripts/bower_components/angular-google-maps/dist/angular-google-maps.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(

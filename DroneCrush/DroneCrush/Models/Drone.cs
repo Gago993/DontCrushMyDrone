@@ -10,5 +10,7 @@ namespace DroneCrush.Models
         public int ID { get; set; }
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
+        public Coordinate Coordinate { get; set; }
+        public DateTime LastActive { get; set; }
     }
 }

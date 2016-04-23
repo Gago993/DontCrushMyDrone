@@ -128,6 +128,7 @@ C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\H
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.SqlServer.dll
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.Core.xml
 C:\Users\gognj_000\Documents\GitHub\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.SqlServer.xml
+<<<<<<< HEAD
 C:\Users\Dejan\Documents\Visual Studio 2015\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\DroneCrush.dll.config
 C:\Users\Dejan\Documents\Visual Studio 2015\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\DroneCrush.dll
 C:\Users\Dejan\Documents\Visual Studio 2015\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\DroneCrush.pdb
@@ -195,3 +196,73 @@ C:\Users\Dejan\Documents\Visual Studio 2015\Projects\DontCrushMyDrone\DroneCrush
 C:\Users\Dejan\Documents\Visual Studio 2015\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.csproj.GenerateResource.Cache
 C:\Users\Dejan\Documents\Visual Studio 2015\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.dll
 C:\Users\Dejan\Documents\Visual Studio 2015\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.pdb
+=======
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.Migrations.Initial.resources
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.csproj.GenerateResource.Cache
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\DroneCrush.dll.config
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\DroneCrush.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\DroneCrush.pdb
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Antlr3.Runtime.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\EntityFramework.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\EntityFramework.SqlServer.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.Core.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.SqlServer.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Newtonsoft.Json.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Owin.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Net.Http.Formatting.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Helpers.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Http.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Http.WebHost.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Mvc.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Optimization.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Razor.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.WebPages.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.WebPages.Razor.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\WebGrease.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\EntityFramework.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\EntityFramework.SqlServer.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.Core.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Hangfire.SqlServer.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Helpers.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Mvc.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Optimization.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Razor.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.WebPages.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.WebPages.Razor.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Antlr3.Runtime.pdb
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Newtonsoft.Json.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Net.Http.Formatting.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Http.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\System.Web.Http.WebHost.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.dll
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.pdb
+C:\Users\Viktor\Documents\Visual Studio 2013\Projects\DontCrushMyDrone\DroneCrush\DroneCrush\obj\Debug\DroneCrush.Migrations.NoFlyZoneMigration.resources
+>>>>>>> 3ed2612c2aef689741b7ceac620df5c835e1e2cd

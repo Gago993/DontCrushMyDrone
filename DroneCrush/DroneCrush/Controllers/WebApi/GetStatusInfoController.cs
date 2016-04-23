@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Web;
 using System.Web.Http;
 using System.Web.Http.Description;
 
@@ -16,15 +17,28 @@ namespace DroneCrush.Controllers.WebApi
     {
         private DroneDb db = new DroneDb();
 
-
+        [HttpGet]
         [ResponseType(typeof(EnviromentInfoViewModel))]
         public IHttpActionResult GetDroneInfo()
         {
+            Uri myUri = new Uri(Request.RequestUri.OriginalString);
+            
+            string lat = HttpUtility.ParseQueryString(myUri.Query).Get("lat");
+            string lon = HttpUtility.ParseQueryString(myUri.Query).Get("long");
+
+            if (String.IsNullOrEmpty(lat) || String.IsNullOrEmpty(lon))
+            {
+                return BadRequest("Missing Parametars");
+            }
+
             EnviromentInfoViewModel model = new EnviromentInfoViewModel();
 
-            double lat = 41.9973;
-            double lon = 21.4280;
-            
+            model.Coordinate = new Coordinate()
+            {
+                Latitude = Double.Parse(lat),
+                Longitude = Double.Parse(lon)
+            };
+
             String yahooApi = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places%20where%20text%3D%22("+lat+"%2C"+lon+")%22)&format=json&diagnostics=true&callback=";
 
             String googleElevationApiKey = "https://maps.googleapis.com/maps/api/elevation/json?locations="+lat+","+lon+"&key=AIzaSyDTkIcb_EL4fQFTQMe9DA1N5gyQHgmCRGM";

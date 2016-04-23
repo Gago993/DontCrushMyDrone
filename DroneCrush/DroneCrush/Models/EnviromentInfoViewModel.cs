@@ -13,5 +13,6 @@ namespace DroneCrush.Models
         public Location Location { get; set; }
         public Atmosphere Atmosphere { get; set; }
         public Elevation Elevation { get; set; }
+        public Coordinate Coordinate { get; set; }
     }
 }
