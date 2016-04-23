@@ -5,9 +5,9 @@
 
     core.config(configure);
 
-    configure.$inject = ['$stateProvider', '$locationProvider', '$urlRouterProvider'];
+    configure.$inject = ['$stateProvider', '$locationProvider', '$urlRouterProvider', 'uiGmapGoogleMapApiProvider'];
 
-    function configure($stateProvider, $locationProvider, $urlRouterProvider) {
+    function configure($stateProvider, $locationProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
 
         $urlRouterProvider.otherwise("/main");
 
@@ -22,7 +22,12 @@
              controllerAs: 'vm'
          });
 
-      
+        uiGmapGoogleMapApiProvider.configure({
+            //    key: 'your api key',
+            v: '3.20', //defaults to latest 3.X anyhow
+            libraries: 'weather,geometry,visualization'
+        });
 
     }
+
 })();
