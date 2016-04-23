@@ -76,9 +76,9 @@ _[Ss]cripts
 
 ########
 Companies
-Obos.Web/App_Data/Obos.mdf
-Obos.Web.bin
-Obos.Web.obj
+DroneCrush/App_Data/*.mdf
+DroneCrush.bin
+DroneCrush.obj
 .git
 .vs
 *.ldf
