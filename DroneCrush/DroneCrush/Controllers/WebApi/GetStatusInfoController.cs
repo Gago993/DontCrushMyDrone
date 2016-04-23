@@ -22,7 +22,7 @@ namespace DroneCrush.Controllers.WebApi
         public IHttpActionResult GetDroneInfo(double ?lat = null, double ?lon = null)
         {
 
-            if (lat == null || lon == 0)
+            if (lat == null || lon == null)
             {
                 return BadRequest("Missing Parametars");
             }

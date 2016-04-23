@@ -13,7 +13,7 @@
 
         vm.weatherStatus = {};
 
-        vm.map = { center: { latitude: 50 ,longitude: -50}, zoom: 8 };
+        vm.map = { center: { latitude: 41.9973, longitude: 21.4280 }, zoom: 8 };
 
         vm.marker = { id: 1, coords: { latitude: 50, longitude: -50 }, options: { icon: "/Content/Images/Default/drone.png" } };
                                     
