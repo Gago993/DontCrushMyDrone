@@ -79,6 +79,9 @@ Companies
 DroneCrush/App_Data/*.mdf
 DroneCrush.bin
 DroneCrush.obj
+DroneCrush/DroneCrush/obj/*
+DroneCrush/DroneCrush/bin/*
+*.pdb
 .git
 .vs
 *.ldf
