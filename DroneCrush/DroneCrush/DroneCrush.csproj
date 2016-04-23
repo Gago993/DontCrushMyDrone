@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -262,6 +263,9 @@
     <Content Include="Scripts\bower_components\angular-route\bower.json" />
     <Content Include="Scripts\bower_components\angular-route\package.json" />
     <Content Include="Scripts\bower_components\angular-route\README.md" />
+<<<<<<< HEAD
+    <None Include="Properties\PublishProfiles\DroneCrush.pubxml" />
+=======
     <Content Include="Scripts\bower_components\angular-google-maps\.bower.json" />
     <Content Include="Scripts\bower_components\angular-google-maps\.eslintrc" />
     <Content Include="Scripts\bower_components\angular-google-maps\.npmignore" />
@@ -305,6 +309,7 @@
     <Content Include="Scripts\bower_components\lodash\README.md" />
     <Content Include="Scripts\bower_components\lodash\vendor\backbone\LICENSE" />
     <Content Include="Scripts\bower_components\lodash\vendor\underscore\LICENSE" />
+>>>>>>> 3ed2612c2aef689741b7ceac620df5c835e1e2cd
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bower_components\angular-ui-router\release\angular-ui-router.js" />
     <Content Include="Scripts\bower_components\angular-ui-router\release\angular-ui-router.min.js" />
