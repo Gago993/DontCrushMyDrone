@@ -22,12 +22,15 @@
 
         
         $interval(getWeather, 10000 * 60);
-
+        
         function getWeather() {
-            vm.weatherStatus = DroneData.getPlaceStatus();
-            vm.marker.coords.latitude = vm.weatherStatus.Coordinate.latitude;
-            vm.marker.coords.longitude = vm.weatherStatus.Coordinate.longitude;
-            console.log(vm.weatherStatus);
+            vm.weatherStatus = DroneData.getPlaceStatus({ lat: '41.9973', lon: '21.4280' });
+
+            vm.weatherStatus.$promise.then(function () {
+                vm.marker.coords.latitude = vm.weatherStatus.Coordinate.Latitude;
+                vm.marker.coords.longitude = vm.weatherStatus.Coordinate.Longitude;
+            });
+            
         }
     }
 })()

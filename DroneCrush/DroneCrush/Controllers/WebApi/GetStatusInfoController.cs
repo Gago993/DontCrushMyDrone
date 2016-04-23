@@ -19,14 +19,10 @@ namespace DroneCrush.Controllers.WebApi
 
         [HttpGet]
         [ResponseType(typeof(EnviromentInfoViewModel))]
-        public IHttpActionResult GetDroneInfo()
+        public IHttpActionResult GetDroneInfo(double ?lat = null, double ?lon = null)
         {
-            Uri myUri = new Uri(Request.RequestUri.OriginalString);
-            
-            string lat = HttpUtility.ParseQueryString(myUri.Query).Get("lat");
-            string lon = HttpUtility.ParseQueryString(myUri.Query).Get("long");
 
-            if (String.IsNullOrEmpty(lat) || String.IsNullOrEmpty(lon))
+            if (lat == null || lon == 0)
             {
                 return BadRequest("Missing Parametars");
             }
@@ -35,8 +31,8 @@ namespace DroneCrush.Controllers.WebApi
 
             model.Coordinate = new Coordinate()
             {
-                Latitude = Double.Parse(lat),
-                Longitude = Double.Parse(lon)
+                Latitude = Double.Parse(lat.ToString()),
+                Longitude = Double.Parse(lon.ToString())
             };
 
             String yahooApi = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places%20where%20text%3D%22("+lat+"%2C"+lon+")%22)&format=json&diagnostics=true&callback=";
@@ -49,6 +45,12 @@ namespace DroneCrush.Controllers.WebApi
             {
                 var yahooWeatherData = wc.DownloadString(yahooApi);
                 dynamic weatherResult = JsonConvert.DeserializeObject(yahooWeatherData);
+
+                JObject result = weatherResult.query.results;
+                if (result == null)
+                {
+                    return InternalServerError();
+                };
 
                 JObject wind = weatherResult.query.results.channel.wind;
                 model.Wind = wind.ToObject<Wind>();
