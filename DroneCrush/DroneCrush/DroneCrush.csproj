@@ -181,9 +181,14 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\WebApi\DronesController.cs" />
     <Compile Include="Controllers\WebApi\GetStatusInfoController.cs" />
+    <Compile Include="Controllers\WebApi\NoFlyZonesController.cs" />
     <Compile Include="Migrations\Database\201604221240289_Initial.cs" />
     <Compile Include="Migrations\Database\201604221240289_Initial.Designer.cs">
       <DependentUpon>201604221240289_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Database\201604230007015_NoFlyZoneMigration.cs" />
+    <Compile Include="Migrations\Database\201604230007015_NoFlyZoneMigration.Designer.cs">
+      <DependentUpon>201604230007015_NoFlyZoneMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\DroneDb.cs" />
     <Compile Include="Global.asax.cs">
@@ -196,6 +201,7 @@
     <Compile Include="Models\EnviromentInfoViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\NotFlyZone\NoFlyZone.cs" />
     <Compile Include="Models\Weather\Atmosphere.cs" />
     <Compile Include="Models\Weather\Elevation.cs" />
     <Compile Include="Models\Weather\Location.cs" />
@@ -220,6 +226,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <EmbeddedResource Include="Models\SeedData\noFlyZones.txt" />
     <Content Include="Scripts\angular-resource.js" />
     <Content Include="Scripts\angular-resource.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -503,6 +510,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\Database\201604221240289_Initial.resx">
       <DependentUpon>201604221240289_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\Database\201604230007015_NoFlyZoneMigration.resx">
+      <DependentUpon>201604230007015_NoFlyZoneMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
